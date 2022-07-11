@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Ubuntu:wght@300;400;500;700&display=swap');
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  /* color: #fff; */
+  line-height: 1.42;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  font-weight: normal;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+ul {
+  margin: 0px;
+  padding: 0px;
+}
+
+ul li {
+  list-style: none;
+}
+
+button {
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  font-family: "ubuntu", Arial, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  /* color: #fff; */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  width: 75px;
+}
+
+.wrapper-outer {
+  width: 100%;
+  height: 100%;
+  padding: 5%;
+  background-color: rgba(65, 81, 103, 1);
+}
+
+.wrapper-inner {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  background-color: rgba(199, 161, 122, 1);
+  border: 10px solid rgba(237, 240, 245, 1);
+}
+
+.title {
+  letter-spacing: .3rem;
+  text-align: center;
+  margin: 5px;
+}
+
+.coffee--list {
+  width: 85%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  border: 1px solid rgba(237, 240, 245, 1);
+  padding: 3px;
+}
+
+.coffee__button {
+  text-decoration: none;
+  color: inherit;
+}
+
+.coffee__item:hover {
+  cursor: pointer;
+  background-color: rgba(249, 245, 232, 1);
+}
+
+.coffee__item {
+  margin: 3px;
+  padding: 2px;
+  border: 1px solid rgba(237, 240, 245, 1);
+}
+
+.content {
+  margin: 30px auto;
+  padding: 10px;
+  width: 85%;
+  border: 1px solid rgba(237, 240, 245, 1);
+  display: flex;
+}
+
+.content__text {
+  width: 50%;
+  display: flex;
+  padding: 5px;
+  margin-right: 5px;
+  flex-direction: column;
+  justify-content: space-evenly;
+  border: 1px solid rgba(237, 240, 245, 1);
+}
+
+.pic-wrapper {
+  width: 50%;
+  max-height: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid rgba(237, 240, 245, 1);
+}
+
